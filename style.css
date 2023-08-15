@@ -1,0 +1,190 @@
+
+
+body {
+    background-color: orange;
+    color: black;
+    font-size:18px; 
+    font-family: roboto,sans-serif;
+    display: flex;
+    flex-direction:column;
+}
+
+.header {
+    background-color: #1F2937;
+    padding-right:150px;
+    padding-left:150px;
+    padding-top:20px;   
+}
+
+.right-hype img {
+    border-radius: 5%;
+}
+/* This class locking for images is super handy. */
+.fact img {
+    border-radius: 20%;
+    border:3px solid blue;
+}
+
+
+h1{
+    font-size:48px;
+    font-weight:800;
+    color:#F9FAF8;
+}
+
+h2{
+    font-size:36px;
+    color: #1F2937;
+    font-weight:800;
+
+}
+
+.top-bar{
+    display: flex;
+    justify-content: space-between;  
+}
+
+.hype-section{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-bottom:100px;
+    margin-right: 30px;       
+}
+
+.left-hype {
+    
+    flex-direction: column;
+    padding-right: 100px;
+    width: 350px;       
+}
+
+.hero-text {
+    font-size:18px;
+    color:#EFE7EB;
+}
+
+.random-information{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color:whitesmoke;
+    padding-right:150px;
+    padding-left:150px;
+    padding-top:20px;  
+   
+    
+
+ }
+
+ /* The image on the right is slightly higher than the other three images
+ I have no idea why, but it is something to do with the text box pushing the image up I think */
+ .facts {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center; 
+
+    
+ }  
+
+
+ /* There is something going wrong with the paddin the facts section
+ they are not respecting the same way the ones in the hype section did. */
+ .fact {
+    margin:30px;
+    vertical-align: top;
+      
+ }
+
+ .fact p {
+    max-width: 250px;
+    height: 100px;
+ }
+    
+
+
+ul{
+    margin-right: 30px;
+}
+
+li {
+    display: inline;
+    margin:10px;
+    font-size:18px;
+    color:#EFE7EB; 
+} 
+
+button{
+   
+    background-color:#3882F6;
+    color: white;
+    border-radius:6px;  
+}
+
+.fact{
+    color: #1F2937;
+    font-style: italic;
+    font-weight: 36px;
+    padding:20px;
+}
+
+.quote-section {
+   background-color: #E5E7EB;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   padding-right:150px;
+   padding-left:150px;
+   padding-top:20px; 
+   height: 300px;
+   
+}
+
+.bottom-section {
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:whitesmoke;
+    padding-right:150px;
+    padding-left:150px;
+    padding-top:50px;
+    padding-bottom:50px;
+    color:white;
+}
+
+
+.sign-up {
+    display: flex;
+    justify-content: space-between;
+    background: blue;
+    border-radius: 10px;
+    width: 800px;
+    padding-left:30px;
+}  
+
+.sign-button{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    border-radius: 10px;
+    padding-bottom:20px;
+    background-color: blue;
+    width: 30%;
+}
+
+
+    
+
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+}
