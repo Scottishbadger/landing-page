@@ -79,20 +79,13 @@ h2{
 
  }
 
- /* The image on the right is slightly higher than the other three images
- I have no idea why, but it is something to do with the text box pushing the image up I think */
- .facts {
+.facts {
     display: flex;
     flex-direction: row;
     align-items: center;
-    text-align: center; 
-
-    
+    text-align: center;   
  }  
 
-
- /* There is something going wrong with the paddin the facts section
- they are not respecting the same way the ones in the hype section did. */
  .fact {
     margin:30px;
     vertical-align: top;
